@@ -1,0 +1,115 @@
+*{
+	box-sizing: border-box;
+	font-family: arial, helvetica, sans-serif;
+
+}
+h1{
+	text-align: center;
+}
+section{
+	margin: 20px;
+	width: 420px;
+	border: 3px black solid;
+	float: left;
+}
+#section1{
+	background-color: #90EE90;
+	margin-right: 8px;
+}
+h2{
+	border: 1px black solid;
+	width: 100px;
+	height: 30px;
+	margin: 0px 0px 10px 0px;
+	padding-right: 0px;
+	float: right;
+}
+#hc{ 
+
+	background-color: pink;
+    font-style: bold;
+}
+#section2{
+    background-color: #DEB887;
+    float: top center;
+	margin-right: 2px;
+}
+#hb{
+	background-color: red;
+	font-style: bold;
+}
+#section3{
+	background-color: #00FFFF;
+}
+#hs{
+	background-color: yellow;
+	font-style: bold;
+}
+p{
+    font-style: bold;	
+	padding: 0px 10px 10px 20px;
+	clear: right;
+}
+/*****FOR LARGE DEVICES*****/
+@media(min-width: 992PX){
+     h1{
+     	margin-top: 30px;
+     	margin-bottom: 50px;
+	    text-align: center;
+     }
+    section{
+	    margin: 20px;
+	    width: 420px;
+	    border: 3px black solid;
+	    float: left;
+    }
+    #section1{
+	    margin-right: 8px;
+    }
+    h2{
+	    border: 1px black solid;
+	    width: 100px;
+	    height: 30px;
+	    margin: 0px 0px 10px 0px;
+	    padding-right: 0px;
+	    float: right;
+    }
+}
+/*****FOR TABLETS*****/
+@media(min-width: 768px) and (max-width: 991px){
+     h1{
+     	margin-top: 30px;
+     	margin-bottom: 30px;
+	    text-align: center;
+     }
+     *{
+     	margin: 2px
+      }
+    #section1{
+       margin-right: 2px;
+    }  
+    #section3{
+    	width: 867px;
+    	margin-top: 2px;
+    }
+}
+
+/*****FOR MOBILES*****/
+@media(max-width: 767px){
+	 h1{
+     	margin-top: 40px;
+     	margin-bottom: 20px;
+	    text-align: center;
+     }
+    
+     section{
+	   margin: 20px;
+	   width: 420px;
+	}
+     #section2{
+	 clear: right;
+     }
+     #section3{
+	  clear: right;
+     }
+}
